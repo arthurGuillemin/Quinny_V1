@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinny</title>
+    <link rel="shortcut icon"  href="./assets/logoquinny.png" />
+
+    <link rel="stylesheet" href="./style3.css">
+    <link rel="stylesheet" href="./popUp.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html"><img class="logoquinny" src="./assets/logoquinny.png" alt="logoquinny"></a>
+            <img class="quinny" src="./assets/quinny.png" alt="quinny">
+        </div>
+        <div class="nav">
+
+        </div>
+    </header>
+    <main>
+        <section class="identifier">
+            
+            <div id="id">
+                <form>
+                    <label for="nom">Nom </label><br>
+                    <input type="text" id="nom" name="nom"><br>
+                    <label for="prenom">Prénom </label><br>
+                    <input type="text" id="prenom" name="prenom"><br><br>
+                </form>
+            </div>
+            <button id="identifier">S'identifier</button>
+        </section >
+        <h1 id="quizName"></h1>
+        <section class="elquizzo">
+             <div id="quizQuestions"></div>   
+             
+        </section>
+        <input id="button" type="submit" value="Envoyer">
+        <section class="imgtriche">
+            <img id="chouetteTriche" src="./assets/alerte0.png" alt="">
+        </section>
+        <div id="popupContainer"></div>
+    </main>
+    
+        
+</body>
+<script src="./javascript/quizz.js"></script>
+<script src="./javascript/test.js"></script>
+</html>

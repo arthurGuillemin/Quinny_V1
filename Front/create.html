@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinny</title>
+    <link rel="shortcut icon"  href="./assets/logoquinny.png" />
+    
+    <link rel="stylesheet" href="./style2.css">
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html"><img class="logoquinny" src="./assets/logoquinny.png" alt="logoquinny"></a>
+            <img class="quinny" src="./assets/quinny.png" alt="quinny">
+        </div>
+        <div class="nav">
+            <nav class="navie">
+                <a href="./mesClasses.html">Mes classes</a>
+                <a href="./mesQuizs.html">Mes quizz</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Créer un Quiz</h1>
+        <form id="quizForm">
+            <div id="nameContainer">
+                <label for="nomQuiz">Nom du Quiz :</label><br>
+                <input type="text" id="quizName" name="nomQuiz">
+
+            </div>
+        <div id="questionsContainer">
+        </div>
+        <div class="mesbutton">
+            <button type="button" id="addQuestion">Ajouter une question</button>
+            <button type="button" id="create">Créer le Quiz</button>
+        </div>
+        <div id="quizLink"></div>
+
+    </form>
+    </main>
+    
+   
+</body>
+<script src="./javascript/createQuizz.js"></script>
+</html>

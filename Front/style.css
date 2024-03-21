@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #EBEAF1;
+}
+
+header{
+    padding-left: 25px;
+    padding-right: 30px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    background-color: #835F9F;
+    box-shadow: 0px 6px 12px 4px rgba(0,0,0,0.21);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 13%;
+}
+
+header .logoquinny{
+    width: 110px;
+    margin-bottom: -13px;
+    
+}
+header .quinny{
+    height: 65px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 13%;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.nav i{
+    font-size: 40px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #EBEAF1;
+}
+
+section{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+
+}
+
+article{
+    background-color: #DEDEF2 ;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    align-items: center;
+    width: 520px ;
+    height: 750px;
+    border-radius: 10px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+
+article h1{
+    font-family: "Titillium Web", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+article img{
+    width: 300px;
+}
+
+
+article button{
+    background-color: #A58DBA ;
+    border-style: none;
+    height: 65px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+article a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.inputandbut{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    width: 345px ;
+    height: 40px;
+    border-radius: 15px;
+    border-color: #9E9E9E;
+    border-style: solid;
+    padding-left: 30px;
+}

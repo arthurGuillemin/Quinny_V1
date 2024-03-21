@@ -1,0 +1,52 @@
+/* Style de la pop-up de triche */
+.popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999; 
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 30%;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.already {
+    color: red;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 32px;
+}
+
+.popup p {
+    color: black;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 22px;
+}
+
+
+
+/* CSS tremblement */
+@keyframes tremble {
+    0% { transform: translateX(-2px) rotate(-2deg); }
+    25% { transform: translateX(2px) rotate(2deg); }
+    50% { transform: translateX(-2px) rotate(-2deg); }
+    75% { transform: translateX(2px) rotate(2deg); }
+    100% { transform: translateX(-2px) rotate(-2deg); }
+}
+
+.tremble-animation {
+    animation: tremble 0.1s infinite;
+}

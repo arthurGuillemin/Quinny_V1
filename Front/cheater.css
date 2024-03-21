@@ -1,0 +1,9 @@
+#cheater{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    font-family: "Titillium Web", sans-serif;
+}
