@@ -1,7 +1,7 @@
 # **Projet Quinny**
 
 ## **Résumé**
-**Quinny** est un projet co-réalisé avec ma collègue de formation [Kelly Gama](https://github.com/KellyGama).
+**Quinny** est un projet co-réalisé avec ma collègue de formation [Kelly Gama](https://github.com/KellyGama). J'ai surtout travaillé sur la partie back-end nodejs et javascript front pour la detection des comportements.
 
 La consigne qui nous a été donnée était de réaliser un moyen de tester les connaissances d'apprenants tout en assurant que la personne ne triche pas.
 
